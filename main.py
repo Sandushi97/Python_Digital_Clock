@@ -24,4 +24,4 @@ def digital_clock():
    label.config(text=time_live) 
    label.after(200, digital_clock)
 digital_clock()
-#app_window.mainloop()
+app_window.mainloop()

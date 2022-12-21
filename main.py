@@ -7,7 +7,7 @@ app_window = Tk()
 app_window.title('Digital Clock')
 app_window.geometry("1090x400")
 app_window.resizable(1, 1)
-app_window.eval('tk::PlaceWindow . center')
+#app_window.eval('tk::PlaceWindow . center')
 
 # font of the window and its color
 text_font = ("Times New Roman", 68, "italic bold")
